@@ -16,9 +16,12 @@ export default component$(() => {
         <li>
           <a href="/flower">flower</a>
         </li>
-        {/* <li>
-          <a href="/">Tutorials</a>
-        </li> */}
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="/test">test</a>
+        </li>
       </ul>
     </header>
   );
