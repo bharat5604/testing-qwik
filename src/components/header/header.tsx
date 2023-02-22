@@ -1,26 +1,30 @@
 import { component$ } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 import { QwikLogo } from "../icons/qwik";
 
 export default component$(() => {
   return (
     <header class="flex justify-between items-center capitalize">
       <div class="">
-        <a href="/" title="qwik">
+        <Link href="/" title="qwik">
           <QwikLogo />
-        </a>
+        </Link>
       </div>
       <ul class="flex gap-4">
         <li>
-          <a href="/todolist">todo</a>
+          <Link href="/todolist">todo</Link>
         </li>
         <li>
-          <a href="/flower">flower</a>
+          <Link href="/flower">flower</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </li>
         <li>
-          <a href="/test">test</a>
+          <Link href="/test">test</Link>
+        </li>
+        <li>
+          <Link href="/fundamental/">Features</Link>
         </li>
       </ul>
     </header>
